@@ -21,21 +21,15 @@ export default function Home() {
             <code className={styles.code}>pages/index.tsx</code>
           </p>
           <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{' '}
+            
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
+                src="/asuh.webp"
+                alt="ASUH Logo"
                 className={styles.vercelLogo}
                 width={100}
-                height={24}
+                height={120}
                 priority
               />
-            </a>
           </div>
         </div>
 
@@ -45,7 +39,7 @@ export default function Home() {
             src="/next.svg"
             alt="Next.js Logo"
             width={180}
-            height={37}
+            height={100}
             priority
           />
           <div className={styles.thirteen}>
