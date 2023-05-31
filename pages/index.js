@@ -13,15 +13,13 @@ export default function Home() {
       Fridays from 11am-1pm
       </p>
       <h2>Make sure to keep with the ASUH Events:</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?src=cp9m2n30roolg5ugat0rr4vun4%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?src=cp9m2n30roolg5ugat0rr4vun4%40group.calendar.google.com&ctz=America%2FChicago" style={{border: '0', width: '800', height: '600', frameborder: '0', scrolling: 'no'}}></iframe>
 
 
 
         <script type="text/javascript" src="http://moonphases.co.uk/js/widget.js" id="moonphase_widget" widget="" lat="" lng="" date="" tz=""></script>
 
-        <!-- Start: Copyright 2017 TraceMyIP.org Service Code (140021-10142017)- DO NOT MODIFY //-->
-        <div style="line-height:16px;text-align:center;"><script type="text/javascript" src="//s3.tracemyip.org/tracker/lgUrl.php?stlVar2=1217&amp;rgtype=4684NR-IPIB&amp;pidnVar2=44603&amp;prtVar2=15&amp;scvVar2=12"></script><noscript><a href="https://www.tracemyip.org/"><img src="//s3.tracemyip.org/tracker/1217/4684NR-IPIB/44603/15/12/ans/" alt="show my ip address" style="border:0px;"></a></noscript></div>
-        <!-- End: TraceMyIP.org Service Code //-->
+        
     </>
   )
 }
