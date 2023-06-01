@@ -8,32 +8,28 @@ function Navbar() {
 
     return( 
         <>
-        <nav className='navbar navbar-default'>
+        <nav className=''>
 
-            <div className="container">
-                <div className="navbar-header">
-                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-                    <span className="sr-only">Toggle navigation</span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                    <span className="icon-bar"></span>
-                </button>
-                <a className="navbar-brand visible-xs visible-sm" href="http://asuh.phys.uh.edu"><img src="/assets/images/asuhLogo.png" width="100"/></a>
-                        <a className="navbar-brand visible-md visible-lg" href="http://asuh.phys.uh.edu"><img src="/assets/images/asuhLogo.png" width="100"/>Astronomy Society at UH  (ASUH)</a>
+            <div className="">
+                <div className="flex flex-row items-center pl-16 ...">
+                    <Link href="/"><img src="/asuh.webp" width="100"/></Link>
+                    <Link href='/' ><h1 className=' text-4xl pr-60'>Astronomy Society at UH  (ASUH)</h1></Link>
+                    <div className='flex flex-row items-center text-xs pl-80 ...'>
+                        <Link href="http://nsm.uh.edu/" >NSM HOME</Link> <p >⦁</p> <Link href="http://www.uh.edu/" >UH HOME</Link>
+                    </div>
                 </div>
-
-                <div className="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul className="nav navbar-nav">
-                                <li className="active"><a href="http://asuh.phys.uh.edu">Home</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/news-and-events">News &amp; Events</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/officers">Officers</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/past-events">Past Events</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/resources">Resources</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/donors">Donors</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/donate">Donate</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/asuh-social-media">ASUH Social Media</a></li>
-                                    <li><a href="http://asuh.phys.uh.edu/become-member">Become a Member</a></li>
-                            </ul>
+                <div className=" text-amber-500 ">
+                    <ul className="grid grid-rows-2  grid-flow-col gap-4  list-none bg-stone-950 pd-16 pl-16  flex">
+                        <li className="active"><Link href="/" >Home</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/News">News &amp; Events</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/Officers">Officers</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/PastEvents">Past Events</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/Resources">Resources</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/Donors">Donors</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/Donate">Donate</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/Socials">ASUH Social Media</Link></li>
+                        <li className='hover:bg-amber-500'><Link href="/Join">Become a Member</Link></li>
+                    </ul>
                 </div>
             </div>
         </nav>

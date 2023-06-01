@@ -1,0 +1,1 @@
+// This also needs slugs to generate the page links
