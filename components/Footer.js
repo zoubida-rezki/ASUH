@@ -7,15 +7,15 @@ function Footer () {
             {/* Needs to be centered on the page */}
             <footer className="footer">
                 <div className="container">
-                    <p><a href="http://www.nsm.uh.edu/" target="_blank">UH College of Natural Sciences &amp; Mathematics</a></p>	</div>
+                    <p  className="text-center"><a href="http://www.nsm.uh.edu/" target="_blank">UH College of Natural Sciences &amp; Mathematics</a></p>	</div>
             </footer>
 
             <footer className="uh-footer">
                 <system-region name="DEFAULT"><nav aria-label="Global Footer" className="global-footer">
                     <div className="container">
                         {/* Needs to be centered on the page */}
-                        <p className="copyright">©2023 University of Houston. All rights reserved.</p>
-                            <ul className="nav-required">
+                        <p className="copyright text-center ">©2023 University of Houston. All rights reserved.</p>
+                            <ul className="nav-required flex justify-center ">
                             {/* 3 rows by cols  centered on page */}
                                 <li className="nav-item-highlighted"><a href="https://uh.edu/web-update/report-a-problem/" target="_blank">Report a problem with this page</a></li>
                                 <li><a href="https://www.texas.gov/" rel="noopener" target="_blank">Texas.gov</a></li>
