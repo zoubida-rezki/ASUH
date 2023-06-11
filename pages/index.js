@@ -2,8 +2,10 @@
 export default function Home() {
   return (
     <>
-      <h1>Who are we?</h1>
-      <p>The Astronomy Society at UH provides an environment for the UH community and our neighbors to learn about the sun, moon, stars, planets, comets, galaxies, gas, dust and other celestial bodies and phenomena! The society is geared towards all levels of subject familiarity, as we accept all majors. Our goal is to establish and maintain an outreach oriented infrastructure that encourages learning and participation, both academically and professionally. 
+    <div class="w-3/4">
+      <h1 className="text-center mb-8 mt-8 font-bold text-6xl text-custom-color-3">Who are we?</h1>{/* text-slate-300  */}
+      <div className="w-4/5 mx-auto">
+      <p className="text-center font-mono text-slate-400 text-xl font-bold text-custom-color-2">The Astronomy Society at UH provides an environment for the UH community and our neighbors to learn about the sun, moon, stars, planets, comets, galaxies, gas, dust and other celestial bodies and phenomena! The society is geared towards all levels of subject familiarity, as we accept all majors. Our goal is to establish and maintain an outreach oriented infrastructure that encourages learning and participation, both academically and professionally. 
 
       So whether you know just about everything there is to know about Astronomy or you're interested in looking through a telescope for the first time, stop by the observatory and enjoy the wonders of what outer space has to offer. 
 
@@ -12,14 +14,15 @@ export default function Home() {
       Come see us at the UH Observatory if you would like to learn more!
       Fridays from 11am-1pm
       </p>
-      <h2>Make sure to keep with the ASUH Events:</h2>
-        <iframe src="https://calendar.google.com/calendar/embed?src=cp9m2n30roolg5ugat0rr4vun4%40group.calendar.google.com&ctz=America%2FChicago" style={{border: '0', width: '800', height: '600', frameborder: '0', scrolling: 'no'}}></iframe>
+      </div>
+      <h2 className="text-center mb-10 mt-12 font-bold text-slate-300">Make sure to keep with the ASUH Events:</h2>
+        <iframe className="w-5/6 mx-auto  h-96" src="https://calendar.google.com/calendar/embed?src=cp9m2n30roolg5ugat0rr4vun4%40group.calendar.google.com&ctz=America%2FChicago" style={{border: '0', width: '800', height: '600', frameborder: '0', scrolling: 'no'}}></iframe>
 
 
 
         <script type="text/javascript" src="http://moonphases.co.uk/js/widget.js" id="moonphase_widget" widget="" lat="" lng="" date="" tz=""></script>
 
-        
+        </div>   
     </>
   )
 }

@@ -9,11 +9,13 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <Navbar />
+      <div className='flex'>
       <Sidebar />
       <body>
         <Main />
         <NextScript />
       </body>
+      </div>
       <Footer />
     </Html>
   )

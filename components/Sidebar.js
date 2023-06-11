@@ -5,6 +5,7 @@ export {Sidebar};
 function Sidebar() {
   return (
     <>
+      {/* <div className='w-1/5 pl-16'> */}
       <div className='w-1/5 pl-16'>
         <h1>Connect with ASUH</h1>
         <h3>Email:<Link href="astronomysocietyuh@gmail.com" > astronomysocietyuh@gmail.com</Link></h3>
