@@ -5,7 +5,7 @@ export default function Home() {
     <div className="w-3/4">
       <h1 className="text-center mb-8 mt-8 font-bold text-6xl text-custom-color-3">Who are we?</h1>{/* text-slate-300  */}
       <div className="w-4/5 mx-auto">
-      <p className="text-center font-mono text-slate-400 text-xl font-bold text-custom-color-2">The Astronomy Society at UH provides an environment for the UH community and our neighbors to learn about the sun, moon, stars, planets, comets, galaxies, gas, dust and other celestial bodies and phenomena! The society is geared towards all levels of subject familiarity, as we accept all majors. Our goal is to establish and maintain an outreach oriented infrastructure that encourages learning and participation, both academically and professionally. 
+      <p className="text-center font-mono text-slate-400 text-xl font-bold">The Astronomy Society at UH provides an environment for the UH community and our neighbors to learn about the sun, moon, stars, planets, comets, galaxies, gas, dust and other celestial bodies and phenomena! The society is geared towards all levels of subject familiarity, as we accept all majors. Our goal is to establish and maintain an outreach oriented infrastructure that encourages learning and participation, both academically and professionally. 
 
       So whether you know just about everything there is to know about Astronomy or you're interested in looking through a telescope for the first time, stop by the observatory and enjoy the wonders of what outer space has to offer. 
 

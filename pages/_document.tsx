@@ -16,7 +16,9 @@ export default function Document() {
         <NextScript />
       </body>
       </div>
+      <div className='w-4/5 mx-auto'>
       <Footer />
+      </div>
     </Html>
   )
 }
