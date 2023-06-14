@@ -19,7 +19,7 @@ function Navbar() {
                     </div>
                 </div>
                 <div className=" text-amber-500 ">
-                    <ul className="grid grid-rows-2  grid-flow-col gap-4  list-none bg-stone-950 pd-16 pl-16  flex">
+                    <ul className="grid grid-rows-2  grid-flow-col gap-4  list-none bg-stone-950 pd-16 pl-16 ">
                         <li className="active"><Link href="/" >Home</Link></li>
                         <li className='hover:bg-amber-500'><Link href="/News">News &amp; Events</Link></li>
                         <li className='hover:bg-amber-500'><Link href="/Officers">Officers</Link></li>
