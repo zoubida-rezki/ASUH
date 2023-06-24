@@ -1,4 +1,4 @@
-
+import Script from 'next/script'
 export {Footer};
 
 function Footer () {
@@ -33,7 +33,7 @@ function Footer () {
                     </ul>
                 </div>
                 </nav>
-                <script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-MDRT3QB&amp;t=mainTracker&amp;cid=1435324053.1658845781"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://www.uh.edu/scripts/ga.js?v=20220707" type="text/javascript"></script></system-region>
+                <Script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-MDRT3QB&amp;t=mainTracker&amp;cid=1435324053.1658845781"></Script><Script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/linkid.js"></Script><Script async="" src="https://www.google-analytics.com/analytics.js"></Script><Script async="" src="https://www.google-analytics.com/analytics.js"></Script><Script src="https://www.uh.edu/scripts/ga.js?v=20220707" type="text/javascript"></Script></system-region>
             </footer>
         </>
     )

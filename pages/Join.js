@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 export default function Join() {
     return (<>
@@ -36,7 +36,7 @@ export default function Join() {
                 </table>
                 <input type="hidden" name="currency_code" value="USD"/>
                 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></img>
+                <Image alt="Donate" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></Image>
         </form>
 
             <p>Our Venmo is @AstronomySociety</p>

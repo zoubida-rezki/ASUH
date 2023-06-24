@@ -6,13 +6,13 @@ return(
     <>
         <ul className="">
             <li>
-                "Home Science: Backyard Astronomy Basics"
+                &quot;Home Science: Backyard Astronomy Basics&quot;
 
                 <li>Basic, introductory information for individuals who are interested in astronomy at home</li>
                 <Link href="https://www.homeadvisor.com/r/home-science-backyard-astronomy">homeadvisor.com/r/home-science-backyard-astronomy</Link>
             </li>
             <li>
-                "Be an Astronomer Right from Your Window," from Blinds Chalet (Thanks Quentin and Heather!)
+                &quot;Be an Astronomer Right from Your Window,&quot; from Blinds Chalet (Thanks Quentin and Heather!)
                 <li> Collection of resources and websites for budding stargazers and amateur astronomers</li>
                 <Link href="https://www.blindschalet.com/kba-be-an-astronomer-right-from-your-window-240.html">blindschalet.com/kba-be-an-astronomer-right-from-your-window</Link>
             </li>
