@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
-import Script from 'next/script'
+import Script from 'next/Script'
+import Image from 'next/image'
 
 export default function Socials() {
   return (
@@ -33,7 +33,7 @@ export default function Socials() {
               ></Script>
 
               <a href="https://www.instagram.com/astrosocietyuh/">
-                <Image src="/content/8-asuh-social-media/insta-title.png" alt="" />
+                <Image src="/content/8-asuh-social-media/insta-title.png" alt="" width={500} height={500} />
               </a>
 
               {/* LightWidget WIDGET */}
@@ -48,20 +48,13 @@ export default function Socials() {
 
               <a href="asuh-social-media/snapchat">
                 <Image
-                  src="http://asuh.phys.uh.edu/content/9-asuh-social-media/snapcode.jpg"
+                  src="/public/snapcode.png"
                   alt="Snapcode"
                   className="right"
+                  width={500}
+                  height={500}
                 />
               </a>
-              <style>
-                {`
-                  img {
-                    display: block;
-                    margin-left: 0.5;
-                    margin-right: auto;
-                  }
-                `}
-              </style>
             </small>
           </div>
         </div>

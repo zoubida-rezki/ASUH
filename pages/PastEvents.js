@@ -1,1 +1,1 @@
-// This also need to have slugs added to generate the page links
+// This is the only dynamic route in the app. It is used to display the past events of the club.
