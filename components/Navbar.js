@@ -1,4 +1,5 @@
 import react from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 export {Navbar};
@@ -12,7 +13,7 @@ function Navbar() {
 
             <div className="">
                 <div className="flex flex-row items-center pl-16 ...">
-                    <Link href="/"><img src="/asuh.webp" width="100"/></Link>
+                    <Link href="/"><Image src="/asuh.webp" width={100} height={100} alt='asuh logo'/></Link>
                     <Link href='/' ><h1 className=' text-4xl pr-60'>Astronomy Society at UH  (ASUH)</h1></Link>
                     <div className='flex flex-row items-center text-xs pl-80 ...'>
                         <Link href="http://nsm.uh.edu/" >NSM HOME</Link> <p >⦁</p> <Link href="http://www.uh.edu/" >UH HOME</Link>

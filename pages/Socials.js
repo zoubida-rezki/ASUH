@@ -1,4 +1,6 @@
 import React from 'react';
+import Script from 'next/Script'
+import Image from 'next/image'
 
 export default function Socials() {
   return (
@@ -24,18 +26,18 @@ export default function Socials() {
               >
                 Tweets by Astronomy Society at UH
               </a>
-              <script
+              <Script
                 async
                 src="https://platform.twitter.com/widgets.js"
                 charSet="utf-8"
-              ></script>
+              ></Script>
 
               <a href="https://www.instagram.com/astrosocietyuh/">
-                <img src="/content/8-asuh-social-media/insta-title.png" alt="" />
+                <Image src="/content/8-asuh-social-media/insta-title.png" alt="" width={500} height={500} />
               </a>
 
               {/* LightWidget WIDGET */}
-              <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+              <Script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></Script>
               <iframe
                 src="//lightwidget.com/widgets/435b423ec49757cd8b22c4de59ed9c3d.html"
                 scrolling="no"
@@ -45,21 +47,14 @@ export default function Socials() {
               ></iframe>
 
               <a href="asuh-social-media/snapchat">
-                <img
-                  src="http://asuh.phys.uh.edu/content/9-asuh-social-media/snapcode.jpg"
+                <Image
+                  src="/public/snapcode.png"
                   alt="Snapcode"
                   className="right"
+                  width={500}
+                  height={500}
                 />
               </a>
-              <style>
-                {`
-                  img {
-                    display: block;
-                    margin-left: 0.5;
-                    margin-right: auto;
-                  }
-                `}
-              </style>
             </small>
           </div>
         </div>
